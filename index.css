@@ -14,11 +14,13 @@ html,body   {
 .sign-button    {
     background-color: transparent;
     border: 1px solid #ffffff;
-    border-radius: 1px;
+    border-radius: 10px;
     text-decoration: none;
     color: #ffffff;
-    margin: auto;
-    padding: 2px;
+    margin-top: 10px;
+    padding: 10px 50px;
+    display: inline-block;
+    text-align: center;
 }
 
 .wrapper    {
@@ -44,4 +46,10 @@ html,body   {
     width:  1500px;
     background-color: rgba(0, 0, 0, 0.5);
 
+}
+.row    {
+    display: flex;
+}
+.column {
+    flex: 50%;
 }
