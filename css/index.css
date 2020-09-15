@@ -9,14 +9,14 @@ html,body   {
 }
 /* global styles */
 .text-color {
-  color:azure;
+  color: #ffffff;
 }
 .sign-button    {
     background-color: transparent;
-    border: 1px solid azure;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     text-decoration: none;
-    color: azure;
+    color: #ffffff;
     margin-top: 10px;
     padding: 10px 50px;
     display: inline-block;
@@ -45,19 +45,11 @@ html,body   {
     height: 500px;
     width:  1500px;
     background-color: rgba(0, 0, 0, 0.5);
-    
+
 }
 .row    {
     display: flex;
-    /* -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
 }
-div .column {
+.column {
     flex: 50%;
-    position: relative;
-
-}
-div.header {
-    position: absolute;
-    bottom: 300px;
 }
